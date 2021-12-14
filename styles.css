@@ -6,18 +6,20 @@
 }
 
 html {
-  background-color: burlywood;
+  background-color: #1f2937;
   scroll-behavior: smooth;
 }
 
 h1 {
-  font-family: 'Titan One', 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
   font-size: 48px;
-  font-weight: 800;
+  font-weight:bolder; 
 }
 
 a {
-  color: black;
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -30,19 +32,18 @@ p {
   align-items: center;
   width: 100%;
   position: fixed;
-  background-color:rgb(230, 250, 250);
+  background-color:white;
 }
 
 .header-logo {
   height: 36px;
   margin-left: 24px;
-  border: 4px solid burlywood;
-  border-radius: 50%;
-  box-shadow: 1px 1px;
+  border: 4px solid lightblue;
+  border-spacing: 50%;
 }
 
 .header-logo:hover {
-  border: 4px solid rosybrown;
+  border: 4px solid blue;
 }
 
 .nav-links {
@@ -59,30 +60,22 @@ p {
   text-decoration: none;
   display: block;
   font-size: 20px;
-  padding: 16px;
+  padding: 8px;
 }
 
 .nav-links a:hover {
-  background-color: lightblue;
+  background-color: orange;
   cursor: pointer;
 }
 
 
 
-/*    Title secion    */
+/*    Title section    */
 .title-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(
-      60deg,
-      rgba(57, 60, 90, 0.85),
-      rgba(180, 180, 120, 0.5)
-    ),
-    url(https://wallpaperforu.com/wp-content/uploads/2020/06/paste-wallpaper-2006171415338-scaled.jpg);
-  background-position: center;
-  background-size: cover;
-}
+  }
 
 .media-box {
   display: flex;
@@ -91,10 +84,10 @@ p {
   margin: 128px 72px 72px;
   gap: 24px;
   padding: 32px;
-  border: 3px solid skyblue;
-  border-radius: 200px;
+  border: 3px solid whitesmoke;
+  border-spacing: 200px;
   box-shadow: 2px 2px 20px 2px;
-  background: rgba(57, 60, 90, 0.7);
+  background: #1f2937;
 }
 
 .textbox {
@@ -107,27 +100,27 @@ p {
 }
 
 .textbox h1 {
-  color: burlywood;
-  text-shadow: 2px 2px black;
+  color: whitesmoke;
 }
 
 .main-img {
   object-fit: cover;
   flex: 1 1 auto;
   max-width: 300px;
-  border: 15px solid burlywood;
-  border-radius: 50%;
+  border: 15px solid white;
+  border-spacing: 50%;
   box-shadow: 2px 2px 3px;
 }
 
-.meow-button {
+.sign-button {
   font-weight: 900;
+  color: whitesmoke;
   padding: 4px 24px;
   border-radius: 4px;
-  background-color: rgb(230, 250, 250);
+  background-color: blue;
 }
 
-.meow-button:hover {
+.sign-button:hover {
   cursor: pointer;
   background-color: lightblue;
   box-shadow: 1px 1px burlywood;
@@ -135,14 +128,14 @@ p {
 
 
 /*  Team information section  */
-.team-title {
+.places-title {
   color: white;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px blue;
   text-align: center;
   padding: 96px 0 48px;
 }
 
-.worker-container {
+.places-container {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -150,24 +143,26 @@ p {
   padding-bottom: 128px;
 }
 
-.worker {
+.places {
   display: flex;
+  color: azure;
   flex-direction: column;
   align-items: center;
   gap: 8px;
 }
 
-.worker-icon {
+.places-icon {
   width: 200px;
   height: 200px;
   border: 12px solid rgb(230, 250, 250);
   border-radius: 32px;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: 2px 2px 3px white;
   object-fit: cover;
 }
 
-.worker-text {
+.places-text {
   font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
   text-align: center;
   flex-wrap: wrap;
   max-width: 200px;
@@ -177,7 +172,7 @@ p {
 /*    Testimonial section     */
 .quote-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
   padding: 128px 192px 96px;
   background-color: lightblue;
   font-size: 24px;
@@ -189,7 +184,7 @@ p {
   text-align: end;
   font-style: normal;
   font-weight: 600;
-  color: sienna;
+  color: brown;
 }
 
 
@@ -197,17 +192,17 @@ p {
 .signup-section {
   display: flex;
   align-items: center;
-  background-color: sienna;
-  border: 12px solid lightblue;
+  background-color: blue;
+  border: 6px solid lightblue;
   border-radius: 24px;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: 2px 2px 3px white;
   margin: 128px auto;
   padding: 32px 48px;
   max-width: 1100px;
 }
 
 .email-text h2 {
-  color: lightblue;
+  color: white;
   text-shadow: 1px 1px black;
   font-family: 'Titan One', Arial, Helvetica, sans-serif;
   padding-bottom: 8px;
@@ -223,17 +218,17 @@ p {
   width: 128px;
   padding: 4px 24px;
   margin: 24px auto;
-  background-color:rgb(230, 250, 250);
+  background-color:whitesmoke
   border-radius: 4px;
-  border: 3px solid lightblue;
+  border: 2px solid lightblue;
   box-shadow: 2px 2px 3px black;
   font-weight: 400;
 }
 
 .email-btn:hover {
   font-weight: 800;
-  background-color: skyblue;
-  border-color: steelblue;
+  background-color: blue;
+  border-color: white;
   cursor: pointer;
 }
 
